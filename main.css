@@ -4,7 +4,7 @@
     padding: 0;
   }
 
-  .montserrat-alternates-regular {
+  /* .montserrat-alternates-regular {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -26,7 +26,7 @@
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 800;
     font-style: normal;
-  }
+  } */
 
   :root {
       --cream: #FFF2D8;
@@ -34,18 +34,21 @@
       --beige: #BCA37F;
       --green: #113946;
       --red: #6d0000;
-      --primary-font: "Montserrat Alternates", sans-serif;
+      --primary-font: "Montserrat", sans-serif;
+      --secondary-font: "Montserrat Alternates", sans-serif;
   }
 
   body {
-      background: var(--green);
-      color: var(--cream);
-      font-family: var(--primary-font);
-    }
+    background: var(--green);
+    color: var(--cream);
+    font-family: var(--secondary-font);
+}
+
+body p {padding-bottom: 20px;}
 
 .main-container {padding: 20px;}
 
 h1 {
     color: var(--cream);
-    text-align: center;
+    font-family: var(--primary-font);
 }
