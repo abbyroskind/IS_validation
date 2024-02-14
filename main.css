@@ -33,7 +33,7 @@
       --tan: #EAD7BB;
       --beige: #BCA37F;
       --green: #113946;
-      --red: #F22952;
+      --mauve: #915F6D;
       --primary-font: "Montserrat", sans-serif;
       --secondary-font: "Montserrat Alternates", sans-serif;
   }
@@ -41,25 +41,29 @@
   body {
     background: var(--green);
     color: var(--cream);
-    font-family: var(--secondary-font);
 }
 
-body p {padding-bottom: 20px;}
+body p {
+    font-family: var(--primary-font);
+    padding-bottom: 20px;
+}
 
 .main-container {padding: 20px;}
 
 h1 {
     color: var(--cream);
-    font-family: var(--primary-font);
+    font-family: var(--secondary-font);
     padding-bottom: 20px;
 }
 
-.main-container iframe .renderer-in .AnimateStyled-sc-__sc-nw4u3g-0 jPHXjX h2 {display: none;}
+.main-container iframe .Root-sc-__sc-1ndopc5-3.gfRTxr {display: none;}
+
+.main-container iframe .LayoutWrapper-sc-__sc-1ndopc5-2.ftHTbG {justify-content: center;}
 
 .main-container iframe .time-to-complete-labelled-icon {color: var(--cream);}
 
 .main-container iframe button.start-button {
-    background: var(--red);
+    background: var(--mauve);
     color: var(--cream);
     font-family: var(--primary-font);
 }
