@@ -11,6 +11,15 @@
       --beige: #BCA37F;
       --green: #113946;
       --red: #6d0000;
+      --primary-font: "Montserrat Alternates", sans-serif;
   }
 
-  body {background: var(--green);}
+  body {
+      background: var(--green);
+      color: var(--cream);
+      font-family: var(--primary-font);
+    }
+
+h1 {
+    color: var(--cream);
+}
